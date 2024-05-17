@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('mouspadwallpaper.png'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bars {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 300px; 
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(255, 255, 255, 0); /* Set input background color to transparent with 50% opacity */
+    border: 1.5px solid #353535; /* Add border for visibility */
+    color: #3f75b3; /* Change the text color to red */
+    transition: background-color 0.3s;
+}
+
+#Button1 {
+    margin-right: 2px;
+    padding: 5px 10px;
+    height: 50px;
+    background-image: url('youtube.png'); /* Add the path to your first button icon */
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid #5e249400; /* Add border for visibility */
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Button2 {
+    margin-right: 2px;
+    padding: 5px 10px;
+    height: 50px;
+    background-image: url('github.png'); /* Add the path to your first button icon */
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid #5e249400; /* Add border for visibility */
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Add similar styles for Button3 and Button4 with different icons */
+#Button3 {
+    margin-right: 2px;
+    padding: 5px 10px;
+    height: 50px;
+    background-image: url('fmovies.png'); /* Add the path to your first button icon */
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid #5e249400; /* Add border for visibility */
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+    /* Button3 styles */
+
+
+#Button4 {
+    margin-right: 2px;
+    padding: 5px 10px;
+    height: 50px;
+    background-image: url('logo.png'); /* Add the path to your first button icon */
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid #5e249400; /* Add border for visibility */
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+    /* Button4 styles */
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change the background color on hover with opacity */
+}
+
+#Button1:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change the background color on hover with opacity */
+}
+
+#Button2:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change the background color on hover with opacity */
+}
+
+#Button3:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change the background color on hover with opacity */
+}
+
+#Button4:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change the background color on hover with opacity */
+}
+
+input:hover {
+    background-color: rgba(255, 255, 255, 0.089); /* Change the background color on hover with opacity */
+}

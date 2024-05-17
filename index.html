@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" type="image/png" href="logo.png">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CloudM Portal</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="search-container">
+    <div class="buttons-container">
+        <button id="Button1" onclick="handleButton1()">Button 1</button>
+        <button id="Button2" onclick="handleButton2()">Button 2</button>
+        <button id="Button3" onclick="handleButton3()">Button 3</button>
+        <button id="Button4" onclick="handleButton4()">Button 4</button>
+    </div>
+    <div class="search-bars">
+        <input type="text" id="googleSearch" placeholder="Google" onkeypress="handleKeyPress(event, 'google')">
+        <input type="text" id="braveSearch" placeholder="Brave" onkeypress="handleKeyPress(event, 'brave')">
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
